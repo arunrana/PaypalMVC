@@ -1,0 +1,41 @@
+@model IEnumerable<PaypalMVC.Models.Category>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th></th>
+        <th>
+            CategoryName
+        </th>
+        <th>
+            products
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+        <td>
+			@item.CategoryName
+        </td>
+        <td>
+			@(item.products == null ? "None" : item.products.Count.ToString())
+        </td>
+    </tr>
+}
+
+</table>
+
+

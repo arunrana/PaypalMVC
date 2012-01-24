@@ -1,0 +1,23 @@
+@model PaypalMVC.Models.Category
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Category</legend>
+
+    <div class="display-label">CategoryName</div>
+    <div class="display-field">@Model.CategoryName</div>
+
+    <div class="display-label">products</div>
+    <div class="display-field">@(Model.products == null ? "None" : Model.products.Count.ToString())</div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+

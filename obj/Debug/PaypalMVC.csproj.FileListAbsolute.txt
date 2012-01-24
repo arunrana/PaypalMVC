@@ -1,0 +1,11 @@
+E:\Projects\MVC3\PaypalMVC\PaypalMVC\bin\PaypalMVC.dll
+E:\Projects\MVC3\PaypalMVC\PaypalMVC\bin\PaypalMVC.pdb
+E:\Projects\MVC3\PaypalMVC\PaypalMVC\bin\EntityFramework.dll
+E:\Projects\MVC3\PaypalMVC\PaypalMVC\bin\System.Data.SqlServerCe.dll
+E:\Projects\MVC3\PaypalMVC\PaypalMVC\bin\System.Data.SqlServerCe.Entity.dll
+E:\Projects\MVC3\PaypalMVC\PaypalMVC\bin\WebActivator.dll
+E:\Projects\MVC3\PaypalMVC\PaypalMVC\bin\EntityFramework.xml
+E:\Projects\MVC3\PaypalMVC\PaypalMVC\bin\WebActivator.pdb
+E:\Projects\MVC3\PaypalMVC\PaypalMVC\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\MVC3\PaypalMVC\PaypalMVC\obj\Debug\PaypalMVC.dll
+E:\Projects\MVC3\PaypalMVC\PaypalMVC\obj\Debug\PaypalMVC.pdb
